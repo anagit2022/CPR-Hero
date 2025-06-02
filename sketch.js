@@ -149,7 +149,8 @@ function preload() {
  ring = loadSound("mixkit-office-telephone-ring-1350.wav");
 }
 function setup() {
- // createCanvas(392, 680);
+  //createCanvas(392, 680);
+  // for github
   createCanvas(windowWidth, windowHeight);
   maxTotalCompressions = floor(random(30, 50));
   task_time = 600 * maxTotalCompressions+3000;
